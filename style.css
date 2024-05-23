@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans';
+    font-weight: 500;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 1.25rem 0.75rem 0.75rem 0.75rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
+    color: rgb(221,0,49);
+    z-index: 9999;
+    background-color: white;
+    
+}
+
+
+
+nav ul {
+    align-items: center;
+    text-align: center;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    padding-right: 1.25rem;
+}
+
+nav p{
+    /* margin-bottom: -10px; */
+    position: absolute;
+    left: 3.125rem;
+}
+
+.buttons {
+    float: right;
+    margin-top: -0.9375rem;
+}
+
+.buttons button {
+    padding: 0.8125rem 2.1875rem 0.8125rem 2.1875rem ;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
+    margin-top: -25PX;
+}
+
+.buttons button a {
+    text-decoration: none;
+
+}
+
+.sign {
+    background-color: white;
+    border: none;
+    border-radius: 1.125rem;
+    
+}
+
+.sign a {
+    color: rgb(221,0,49);
+}
+
+#order {
+    background-color: rgb(221,0,49);
+    border: none;
+    border-radius: 1.125rem;
+    margin-left: 1.25rem;
+}
+
+#order a {
+    color: white;
+}
+
+.section-one {
+    position: relative;
+    
+    
+}
+
+ .original {
+    position: absolute;
+    top: 25rem;
+    left: 7.5rem;
+  font-size: 1.875rem;
+}
+
+
+
+.section-one img {
+    position: relative;
+    left: 37.5rem;
+    top: 5.625rem;
+}
+
+
+
+.btn-container button {
+padding: 1rem 3.125rem 1rem 3.125rem;
+border-radius: 0.625rem;
+border: none;
+background-color: rgb(221,0,49);
+margin-right: 1.75rem;
+}
+
+.btn-container button  a{
+text-decoration: none;
+color: white;
+font-weight: 700;
+}
+
+.original p{
+    margin-left: 10rem;
+    font-size: 1.25rem;
+    color: rgb(72,82,89);
+}
+
+.original h1{
+    color: rgb(221,0,49);
+}
+
+
+.section-two {
+    position: relative;
+    top: 6.25rem;
+}
+
+
+
+.section-two img {
+    width: 21.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.deluxe, .mango, .waffle {
+    position: absolute;
+    left: 5rem;
+    background-color: rgb(244,248,249);
+    padding-bottom: 1.25rem;
+    border-radius: 0.75rem;
+    
+}
+
+.spicy, .limited, .wafffle {
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+}
+
+.mango {
+    left: 31.25rem;
+}
+
+.waffle {
+    left: 57.5rem;
+    padding-bottom: 1.875rem;
+}
+
+.wafffle button {
+    margin-top: 1.875rem;
+}
+
+.section-two button {
+    margin-top: 3.125rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: rgb(221,0,49);
+    border: none;
+    border-radius: 0.75rem;
+    
+
+}
+
+.section-two button a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.section-two h2 {
+    font-weight: bolder;
+    color:rgb(0,79,113);
+    margin-bottom: 0.9375rem;
+}
+
+#limit {
+    color: rgb(221,0,49);
+}
+
+
+
+
+.section-three {
+    position: relative;
+    top: 43.75rem;
+    margin-left: 4.6875rem;
+}
+
+.section-three img {
+    width: 44%;
+}
+
+.explore {
+    position: absolute;
+    left: 45.625rem;
+    top: 9.375rem;
+}
+
+.explore h2 {
+    font-weight: bolder;
+    color: rgb(0,79,113);
+    margin-bottom: 0.9375rem;
+}
+
+.explore p {
+    line-height: 1.5625rem;
+    color: rgb(72,82,89);
+}
+
+.explore button {
+    margin-top: 1.875rem;
+    padding: 0.625rem 0.8125rem 0.625rem 0.8125rem;
+    background-color: rgb(221,0,49);
+    border: none;
+    border-radius: 25px;
+}
+
+.explore button a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-four {
+    position: relative;
+    top: 50rem;
+}
+
+.section-four img {
+    position: relative;
+    left: 43.125rem;
+   bottom: 3.125rem;
+}
+
+.eat-n-receive {
+    position: absolute;
+    left: 4.6rem;
+    top: 2.5rem;
+    line-height: 2.1875rem;
+}
+
+.eat-n-receive h2 {
+font-weight: bolder;
+color: rgb(0,79,113);
+margin-bottom: 0.625rem;
+
+}
+
+.eat-n-receive button {
+    margin-top: 1.875rem;
+   
+    padding: 0.625rem 0.9375rem 0.625rem 0.9375rem;
+    background-color: rgb(221,0,49);
+    border: none;
+    border-radius: 1.5625rem;
+
+}
+
+.eat-n-receive button a{
+text-decoration: none;
+color: white;
+}
+
+.section-five {
+    position: relative;
+    top: 48.75rem;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+
+    background-image: url(images/Homepage_Catering_\ module_desktop.jpeg);
+    
+}
+
+.catering {
+    position: absolute;
+    left: 51%;
+    top: 3.125rem;
+    background-color: white;
+    padding: 1.875rem;
+    border-radius: 1.125rem;
+}
+
+.catering h2 {
+    font-weight: bolder;
+    color: rgb(0,79,113);
+    margin-bottom: 1.875rem;
+}
+
+.catering button {
+    margin-top: 1.875rem;
+   
+    padding: 0.625rem 0.9375rem 0.625rem 0.9375rem;
+    background-color: rgb(221,0,49);
+    border: none;
+    border-radius: 1.5625rem;
+}
+
+.catering button a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-six {
+    position: relative;
+    top: 53.75rem;
+
+}
+
+.section-six img {
+    position: relative;
+    left: 43.75rem;
+    top: 0;
+}
+
+.little-love {
+    position: absolute;
+    top: 7.1875rem;
+    left: 4.9rem;
+}
+
+.little-love h2 {
+    color: rgb(0,79,113);
+    font-weight: bolder;
+    margin-bottom: 0.9375rem;
+    margin-top: 1.5625rem;
+    font-size: 1.875rem;
+}
+
+.little-love button {
+    margin-top: 0.875rem;
+    padding: 0.625rem 0.9375rem 0.625rem 0.9375rem;
+    background-color: rgb(221,0,49);
+    border: none;
+    border-radius: 1.5625rem;
+}
+
+.little-love button a {
+    text-decoration: none;
+    color:white;
+}
+
+#share {
+    color: rgb(221,0,49);
+}
+
+
+.section-seven {
+    position: relative;
+    top: 57.5rem;
+}
+
+.sign-up {
+    position: absolute;
+    left: 43.25rem;
+    top: 0px;
+    background-color: rgb(244,248,249);
+    height: 40rem;
+    width: 40.625rem;
+    padding-top: 9.375rem;
+    
+}
+
+.sign-up h2 {
+    font-size: 1.875rem;
+    font-weight: bolder;
+    color: rgb(0,79,113);
+    text-align: center;
+}
+
+.points {
+text-align: center;
+line-height: 1.5625rem;
+}
+
+.reward {
+    text-align: center;
+    margin-bottom: 0.625rem;
+}
+
+.btn-3 {
+    align-items: center;
+    text-align: center;
+    margin-top: 0.625rem;
+
+}
+
+.btn-3 button {
+
+    margin-right: 0.8125rem;
+    margin-top: 0.875rem;
+    padding: 0.625rem 0.9375rem 0.625rem 0.9375rem;
+    background-color: black;
+    border: none;
+    
+}
+
+.btn-3 button  a{
+
+    text-decoration: none;
+    color: white;
+}
+.section-eight {
+    position: relative;
+    text-align: center;
+    top: 60rem;
+    margin-left: 1.1875rem;
+    font-size: 0.775rem;
+    color: rgb(72,82,89);
+}
+
+.section-eight ul li{
+    display: inline-block;
+    padding-right: 0.75rem;
+    font-weight: bolder;
+   
+}
+
+.section-eight ul {
+    margin-bottom: 1.4375rem;
+}
+
+.allerg {
+    font-size: 0.875rem;
+    font-weight: bolder;
+    color: rgb(221,0,49);
+}
+
+.allerg li {
+    margin-right: 1.4375rem;
+}
